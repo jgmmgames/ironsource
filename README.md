@@ -3,21 +3,34 @@ ironsource plugin for godot . modified from MrZak-dev's plugin
 
 
 first download the file. then extract it.
-install android build template into your project.
+>install android build template into your project.
+
 in the android>plugins folder paste the both .aar and .gdap file.
+
 copy the "ironsource-plugin-api" file and paste the file under the res:// folder. 
+
 now add the ironsource plugin node into your project . also add a timer node and name it "ads_cap".
+
 autoload the ironsource.gd file.
+
 now go to export setting then enable android custom build and ironsource plugin.
+
 select your minimum sdk 22
-edit android manifest from project\android\build\AndroidManifest.xml
+
+
+
+ edit android manifest from project\android\build\AndroidManifest.xml
       in the appliction tag insert the code     tools:replace="android:label"
-create a scene. in the script under the ready function initialiaze the plugin by this way
-func _ready():
-	Ironsource._initialize()
+      
+      
+> create a scene. in the script under the ready function initialiaze the plugin by this way
+
+```
+ func _ready():
+	Ironsource._initialize() 
+  ```
   
-  
- now make your own logic for move
+ now make your own logic for move forword
 
 
 ![image](https://user-images.githubusercontent.com/92350126/156867066-4c9f0568-df9a-479d-909b-7695012417d9.png)
