@@ -21,5 +21,5 @@ remote=["com.ironsource.sdk:mediationsdk:7.1.8" ,
 "com.adcolony:sdk:4.5.0",
 "com.applovin:applovin-sdk:10.3.1",
 "com.facebook.android:audience-network-sdk:6.5.1",
-"com.chartboost:chartboost-sdk:8.2.1"]
-"androidx.multidex:multidex:2.0.1",
+"com.chartboost:chartboost-sdk:8.2.1",
+"androidx.multidex:multidex:2.0.1"]
